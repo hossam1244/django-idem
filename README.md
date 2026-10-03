@@ -84,7 +84,7 @@ callable so the same key in two tenants is two different operations.
 pip install -e . && pytest
 ```
 
-Eight tests cover the contract end-to-end against a real DRF view with a real
+Eleven tests cover the contract end-to-end against a real DRF view with a real
 side effect: replay without double effects, cached validation errors, key-reuse
 409, required/optional modes (global and per-view), custom scoping isolation,
 and stored-body fidelity. CI runs the suite across Python 3.11–3.13 ×

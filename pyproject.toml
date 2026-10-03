@@ -39,6 +39,7 @@ dev = [
     "pytest-django>=4.8",
     "ruff>=0.6",
     "coverage>=7.6",
+    "pytest-mock>=3.14",
 ]
 
 [tool.hatch.build.targets.wheel]
